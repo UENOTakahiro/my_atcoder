@@ -98,103 +98,104 @@ int main(){
     }
   }
 
-  for(int i=0; i<26;i++){
-    cout << vec.at(i) << endl;
+  // for(int i=0; i<26; i++){
+  //   cout << i << ":" << vec.at(i) << endl;
+  // }
+
+  int answer;
+  answer = -1;
+  for(int i=25; i >= 0; i--){
+    if(vec.at(i)==0){
+      answer = i;
+    }
   }
 
-  // int answer;
-  // for(int i=0; i<26; i++){
-  //   if(vec.at(i)==0){
-  //     answer = i;
-  //   } else {
-  //     answer = -1;
-  //   }
-  // }
-  //
-  // string letter;
-  // switch(answer){
-  //   case -1:
-  //     letter = "None";
-  //     break;
-  //   case 0:
-  //     letter = "a";
-  //     break;
-  //   case 1:
-  //     letter = "b";
-  //     break;
-  //   case 2:
-  //     letter = "c";
-  //     break;
-  //   case 3:
-  //     letter = "d";
-  //     break;
-  //   case 4:
-  //     letter = "e";
-  //     break;
-  //   case 5:
-  //     letter = "f";
-  //     break;
-  //   case 6:
-  //     letter = "g";
-  //     break;
-  //   case 7:
-  //     letter = "h";
-  //     break;
-  //   case 8:
-  //     letter = "i";
-  //     break;
-  //   case 9:
-  //     letter = "j";
-  //     break;
-  //   case 10:
-  //     letter = "k";
-  //     break;
-  //   case 11:
-  //     letter = "l";
-  //     break;
-  //   case 12:
-  //     letter = "m";
-  //     break;
-  //   case 13:
-  //     letter = "n";
-  //     break;
-  //   case 14:
-  //     letter = "o";
-  //     break;
-  //   case 15:
-  //     letter = "p";
-  //     break;
-  //   case 16:
-  //     letter = "q";
-  //     break;
-  //   case 17:
-  //     letter = "r";
-  //     break;
-  //   case 18:
-  //     letter = "s";
-  //     break;
-  //   case 19:
-  //     letter = "t";
-  //     break;
-  //   case 20:
-  //     letter = "u";
-  //     break;
-  //   case 21:
-  //     letter = "v";
-  //     break;
-  //   case 22:
-  //     letter = "w";
-  //     break;
-  //   case 23:
-  //     letter = "x";
-  //     break;
-  //   case 24:
-  //     letter = "y";
-  //     break;
-  //   case 25:
-  //     letter = "z";
-  //     break;
-  // }
-  //
-  // cout << letter << endl;
+  // cout << answer << endl;
+
+  string letter;
+  switch(answer){
+    case -1:
+      letter = "None";
+      break;
+    case 0:
+      letter = "a";
+      break;
+    case 1:
+      letter = "b";
+      break;
+    case 2:
+      letter = "c";
+      break;
+    case 3:
+      letter = "d";
+      break;
+    case 4:
+      letter = "e";
+      break;
+    case 5:
+      letter = "f";
+      break;
+    case 6:
+      letter = "g";
+      break;
+    case 7:
+      letter = "h";
+      break;
+    case 8:
+      letter = "i";
+      break;
+    case 9:
+      letter = "j";
+      break;
+    case 10:
+      letter = "k";
+      break;
+    case 11:
+      letter = "l";
+      break;
+    case 12:
+      letter = "m";
+      break;
+    case 13:
+      letter = "n";
+      break;
+    case 14:
+      letter = "o";
+      break;
+    case 15:
+      letter = "p";
+      break;
+    case 16:
+      letter = "q";
+      break;
+    case 17:
+      letter = "r";
+      break;
+    case 18:
+      letter = "s";
+      break;
+    case 19:
+      letter = "t";
+      break;
+    case 20:
+      letter = "u";
+      break;
+    case 21:
+      letter = "v";
+      break;
+    case 22:
+      letter = "w";
+      break;
+    case 23:
+      letter = "x";
+      break;
+    case 24:
+      letter = "y";
+      break;
+    case 25:
+      letter = "z";
+      break;
+  }
+
+  cout << letter << endl;
 }
